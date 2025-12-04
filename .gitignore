@@ -39,3 +39,20 @@
 
 # debug information files
 *.dwo
+
+# ide files
+.vscode/
+.idea/
+.cursor/
+
+# build files
+build/
+bld/
+bld*
+install/
+
+# log files
+logs/
+
+# data files
+data/

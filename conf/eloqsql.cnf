@@ -1,0 +1,19 @@
+#my-cnf0
+#This configuration is used in for single node instance and bootstrap.
+[mariadb]
+plugin_maturity=experimental
+datadir=/home/ubuntu/workspace/eloqsql_data
+lc_messages_dir=/home/ubuntu/eloqsql_install/share
+max_connections=500
+
+thread_handling=pool-of-threads
+thread_pool_size=4
+thread_pool_oversubscribe=10
+thread_pool_dedicated_listener=1
+table_open_cache_instances=20
+
+skip-log-bin
+port=3317
+socket=/tmp/mysqld3317.sock
+eloq_cc_protocol=OCC
+transaction-isolation=READ-COMMITTED

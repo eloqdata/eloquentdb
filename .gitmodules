@@ -1,0 +1,9 @@
+[submodule "eloqkv"]
+	path = eloqkv
+	url = git@github.com:eloqdata/eloqkv.git
+[submodule "eloqsql"]
+	path = eloqsql
+	url = git@github.com:eloqdata/eloqsql.git
+[submodule "data_substrate"]
+	path = data_substrate
+	url = git@github.com:eloqdata/tx_service.git
